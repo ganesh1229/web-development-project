@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Webpage</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">WebDev</div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <button class="nav-btn" onclick="showMessage()">
+                Join Now
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Learn Modern Web Development</h1>
+
+            <p>
+                Build responsive and interactive websites using
+                HTML, CSS, and JavaScript with beautiful UI designs.
+            </p>
+
+            <div class="hero-buttons">
+                <button onclick="showMessage()">Get Started</button>
+                <button class="secondary-btn" onclick="changeTheme()">
+                    Change Theme
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+                alt="Coding">
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+
+        <h2>Our Features</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>HTML5</h3>
+                <p>
+                    Learn semantic HTML and create structured webpages.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>CSS3</h3>
+                <p>
+                    Design responsive layouts with animations and styling.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>
+                    Add interactivity and dynamic behavior to websites.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Progress Section -->
+    <section class="progress-section">
+
+        <h2>Learning Progress</h2>
+
+        <div class="progress-box">
+            <p>HTML</p>
+            <div class="progress-bar">
+                <div class="progress html"></div>
+            </div>
+
+            <p>CSS</p>
+            <div class="progress-bar">
+                <div class="progress css"></div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="progress-bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Form Section -->
+    <section class="contact">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <input type="text" placeholder="Enter your name" required>
+
+            <input type="email" placeholder="Enter your email" required>
+
+            <textarea placeholder="Write your message"></textarea>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Modern Webpage | Built with HTML CSS JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
